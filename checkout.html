@@ -85,30 +85,6 @@
                                 <button type="submit">Complete Order</button>
                             </form>
                         </div>
-                        <div class="order-summary">
-                            <h2>Your Order</h2>
-                            <div id="checkout-items"></div>
-                            <div class="order-item">
-                                <span>Barcelona Home Kit</span>
-                                <span>P700</span>
-                            </div>
-                            <div class="order-item">
-                                <span>Manchester United Home Kit</span>
-                                <span>P500</span>
-                            </div>
-                            <div class="order-item">
-                                <span>Shipping</span>
-                                <span>P200</span>
-                            </div>
-                            <div class="order-item">
-                                <span>Tax</span>
-                                <span>P60</span>
-                            </div>
-                            <div class="order-item total">
-                                <span>Total</span>
-                                <span id="checkout-total">P0</span>
-                            </div>
-                        </div>
                         <script>
     document.addEventListener('DOMContentLoaded', () => {
         const cart = JSON.parse(localStorage.getItem('cart')) || [];
