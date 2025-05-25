@@ -315,3 +315,15 @@ button {
         flex-direction: column;
         gap: 10px;
     }
+#card-number {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Fix spacing for small screens */
+@media (max-width: 768px) {
+    .form-section > div[style*="display: flex"] {
+        flex-direction: column;
+        gap: 0;
+    }
+}
